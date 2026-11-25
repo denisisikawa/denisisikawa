@@ -22,13 +22,18 @@ Interesses profissionais: **FP&A, arquitetura de dados financeiros, revenue assu
 
 Meu [laboratório público](https://github.com/denisisikawa/business-science-lab) reúne projetos independentes de portfólio e estudos. Consulte cada README para conhecer instruções, pré-requisitos e limitações.
 
+**Data-first / AI-first:** definições financeiras, qualidade e conciliação orientam a automação. IA aplicada exige escopo definido, fontes rastreáveis e revisão humana. Skills personalizadas apoiam guardrails, performance e acompanhamento do custo de IA; não apresento ganhos de produção sem medição.
+
 | Projeto | O que explorar | Escopo |
 | :-- | :-- | :-- |
 | [Finance Analytics Engineering](https://github.com/denisisikawa/business-science-lab/tree/main/dbt-finance-lab) | Modelagem SQL, staging, marts e testes com dbt + DuckDB | Laboratório local |
-| [Lakehouse Finance Pipeline](https://github.com/denisisikawa/business-science-lab/tree/main/databricks-pipeline-template) | Padrões Bronze / Silver / Gold com PySpark e Delta Lake | Template orientado a Databricks |
-| [Predictive Cost Forecasting](https://github.com/denisisikawa/business-science-lab/tree/main/fp-cost-forecast) | Séries de custos sintéticos, previsão e validação em Python | Demonstração local |
-| [AI-Assisted Finance Queries](https://github.com/denisisikawa/business-science-lab/tree/main/ai-agent-fpa-query) | Validação de consultas, APIs e fallback sintético | Demonstração de integração |
+| [Finance Evolution Lab](https://github.com/denisisikawa/business-science-lab/tree/main/databricks-pipeline-template) | Contrato financeiro, quarentena, reprocessamento e skills para evolução de regras | Backend de aceitação SQLite; adaptador Spark/Delta |
+| [Predictive Cost Forecasting](https://github.com/denisisikawa/business-science-lab/tree/main/fp-cost-forecast) | Validação temporal contra referências simples, MAE, WAPE, viés e cobertura | Demonstração local com dados sintéticos |
+| [AI-Assisted Finance Queries](https://github.com/denisisikawa/business-science-lab/tree/main/ai-agent-fpa-query) | Consultas com escopo definido, evidências e metadados de auditoria | Demo local; adaptador Genie opcional testado com mocks |
 | [Macro FP&A](https://github.com/denisisikawa/business-science-lab/tree/main/macro-fpa) | Contexto cambial e inflação para análises financeiras | Dados sintéticos + indicadores públicos |
+| [Banking Cost Intelligence](https://github.com/denisisikawa/business-science-lab/tree/main/macro-fpa/synthetic-banking) | Rateio, custeio por tempo e capacidade ociosa | Modelo sintético e sandbox interativo |
+| [RevenueGuard AI](https://github.com/denisisikawa/business-science-lab/tree/main/revenueguard-ai) | Conciliação de faturamento e prioridades de investigação | Sandbox experimental; investigação por IA planejada |
+| [Franchise Expansion Intelligence](https://github.com/denisisikawa/business-science-lab/tree/main/franchise-expansion-lab) | Territórios, capacidade comercial e aquisição de parceiros | Laboratório com premissas configuráveis |
 
 ## Tecnologias e temas de estudo
 
